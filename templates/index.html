@@ -1,20 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
-    <title>Mi Primera Web Flask</title>
-</head>
+    <title>Tienda de Ropa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
 
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .producto {
+            background-color: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
 <body>
 
-    <h1>Hola Mundo 🌎</h1>
+    <header>
+        <h1>Tienda Fashion Style</h1>
+        <p>La mejor ropa para tu estilo</p>
+    </header>
 
-    <p>
-        Mi primera página publicada con Flask,
-        GitHub y Render.
-    </p>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <section>
+        <h2>Nuestros Productos</h2>
+
+        <div class="producto">
+            <h3>Polo Casual</h3>
+            <p>Precio: S/ 39.90</p>
+        </div>
+
+        <div class="producto">
+            <h3>Jean Clásico</h3>
+            <p>Precio: S/ 89.90</p>
+        </div>
+
+        <div class="producto">
+            <h3>Casaca Moderna</h3>
+            <p>Precio: S/ 129.90</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Tienda Fashion Style</p>
+    </footer>
 
 </body>
-
 </html>
